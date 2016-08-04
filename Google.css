@@ -1,0 +1,158 @@
+.search_area{
+    margin:auto;
+    min-width: 100px;
+    position:absolute;
+    left: 500px;
+    top: 110px;
+    z-index:-1;
+}
+#logo{
+    height:92px;
+    text-align: center;
+    padding-top:112px;
+}
+#search_bar{
+    position:relative;
+    background: #fff;
+    color: #222;
+    right:155px;
+    top:20px;
+    display: block;
+    border: 1px solid #d9d9d9;
+    width: 561px;
+    height:36px;
+    font-family: Arial;
+    font-size: 22px;
+    line-height: normal;
+    margin: 2px;
+}
+
+.buttons{
+    position: relative;
+    height:36px;
+    width:277px;
+    top:40px;
+    right: 5px;
+}
+#b1{
+    height:36px;
+    line-height: 27px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;   
+}
+#b2{
+    height:36px;
+    line-height: 27px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.bottom{
+    bottom: 0;
+    font-size: small;
+    height: 40px;
+    position: absolute;
+    margin-left: -8px;
+    width: 100%;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 100px;
+    font-family: arial,sans-serif;
+}
+
+.left{
+    font-size: small;
+    color: #777;
+    text-decoration: none;
+    cursor: auto;
+    padding-left: 27px;
+    margin: 0;
+}
+
+.right{
+    position:relative;  
+    font-size: small;
+    color: #777;
+    cursor: auto;
+    text-decoration: none;
+    padding-left: 27px;
+    margin: 0;
+}
+
+#right{
+    position: relative;
+    left: 794px;
+    font: small;
+}
+
+#left{
+    position:relative;
+    left: 3px;
+    margin:0;
+    font: small;
+}
+
+.head{
+    position: absolute;
+    right: 0;
+    padding-right: 27px;
+    align-items: center;
+}
+
+.word{
+    font-size: small;
+    font-family: arial,sans-serif;
+    background: #fff;
+    color: #222;
+    text-decoration: none;
+    opacity: 0.75;   
+    position:relative;
+    right:135px;
+    top:6px;
+}
+#photo{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-image: url(photo.jpg);
+    background-size: 32px, 32px;
+    display: block;
+    position: relative;
+}
+
+#menu{
+    position: absolute;
+    right:px;
+    top:6px
+}
+
+#bell{
+    position: absolute;
+    top:6px;
+    right:125px;
+}
+
+#photo{
+    position: absolute;
+    left:40px;
+    top:-0.1px;
+}
